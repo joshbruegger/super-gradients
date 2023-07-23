@@ -997,7 +997,7 @@ class Trainer:
 
                     List of fixed epoch indices the user wishes to save checkpoints in.
 
-                - `average_best_models` : bool (default=False)
+                - `average_best_models` : bool (default=True)
 
                     If set, a snapshot dictionary file and the average model will be saved / updated at every epoch
                     and evaluated only when training is completed. The snapshot file will only be deleted upon
